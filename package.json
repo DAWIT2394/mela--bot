@@ -1,0 +1,14 @@
+{
+  "name": "mela-check-support-bot",
+  "version": "1.0.0",
+  "description": "Mela Check Telegram support bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0"
+  }
+}
